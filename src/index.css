@@ -27,6 +27,12 @@ body {
   background: var(--color-neutral-100);
 }
 
+/* Dropdown Shadow */
+@utility shadow-dropdown {
+  box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.19);
+}
+
+
 /* ------------------------------------------------------------
    Text Presets
    ------------------------------------------------------------*/
@@ -95,4 +101,9 @@ body {
   &:hover {
     @apply bg-blue-300;
   }
+}
+
+/* Search */
+@utility search-bar {
+  @apply bg-neutral-0;
 }
