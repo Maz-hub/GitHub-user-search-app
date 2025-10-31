@@ -1,9 +1,6 @@
 const App = () => {
   return (
-    <>
-      My App
-      <button className="btn">Search</button>
-    </>
+    <section className="grid min-h-screen place-items-center">My App</section>
   );
 };
 
