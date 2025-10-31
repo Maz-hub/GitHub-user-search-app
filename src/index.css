@@ -1,0 +1,79 @@
+@theme {
+  /* Font */
+  --font-mono: "Space Mono", ui-monospace, monospace;
+
+  /* Neutral palette */
+  --color-neutral-900: #141D2F;
+  --color-neutral-800: #1E2A47;
+  --color-neutral-700: #2B3442;
+  --color-neutral-500: #4B6A9B;
+  --color-neutral-300: #697C9A;
+  --color-neutral-200: #90A4D4;
+  --color-neutral-100: #F6F8FF;
+  --color-neutral-0: #FFFFFF;
+
+  /* Blue palette */
+  --color-blue-300: #60ABFF;
+  --color-blue-500: #0079FF;
+
+  /* Red */
+  --color-red-500: #F74646;
+
+  @utility text-preset-1 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  @utility text-preset-2 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  @utility text-preset-3 {
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  @utility text-preset-4 {
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  @utility text-preset-5 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  @utility text-preset-6 {
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  @utility text-preset-7 {
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  @utility text-preset-8 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: 2.5px;
+  }
+
+}
